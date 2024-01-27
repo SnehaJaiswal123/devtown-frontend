@@ -22,7 +22,7 @@ const Task = (props) => {
     </div>
     <div class="card-body">
       <h5 class="card-title">{props.title}</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">{props.desc}.</p>
       <button type="button" class="btn btn-outline-danger" onClick={handleDeleteTask}>Delete Task</button>
       <button type="button" class="btn btn-outline-secondary">Edit Task</button>
     </div>

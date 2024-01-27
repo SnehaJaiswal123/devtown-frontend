@@ -1,0 +1,17 @@
+.task-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card{
+    margin: 1em;
+}
+
+
+
+
+
